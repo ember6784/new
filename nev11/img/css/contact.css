@@ -1,0 +1,1258 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  align-items: center;
+  gap: 164px;
+  position: relative;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+.contact .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  position: relative;
+  flex: 0 0 auto;
+}
+.contact .text-wrapper,
+.contact .text-wrapper-2,
+.contact .text-wrapper-3,
+.contact .text-wrapper-4 {
+  font-size: 20px;
+}
+.toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none; /* По умолчанию скрыта */
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #333;
+  border-radius: 10px;
+}
+.contact .navbar {
+  position: relative;
+  width: 100%;
+  height: 110px;
+  background-color: #f5f5f5;
+}
+
+.contact .navbar .text-wrapper a,
+.contact .navbar .text-wrapper-2 a,
+.contact .navbar .text-wrapper-3 a,
+.contact .navbar .text-wrapper-4 a {
+  color: inherit; 
+  text-decoration: none; 
+}
+.text-wrapper:hover,
+.text-wrapper-2:hover,
+.text-wrapper-3:hover,
+.text-wrapper-4:hover
+{
+  transform: scale(1.3);
+  transition: transform 0.2s ease-in-out;
+}
+.nav-links a {
+  position: relative;
+  color: inherit; 
+  text-decoration: none; 
+}
+
+.nav-links a:hover::after,
+.nav-links a:focus::after {
+  width: 100%;
+}
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 0;
+  background: #000;
+  transition: width .3s;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 164px;
+  position: relative;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+.contact .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.contact .navbar .logo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px; /* Отступ слева */
+}
+
+.contact .div {
+  position: relative;
+  width: 1297px;
+  height: 47px;
+  top: 37px;
+  left: 49px;
+}
+
+.contact .logo {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 69px;
+  height: 37px;
+}
+
+.contact .text-wrapper {
+  width: 56px;
+  left: 939px;
+  position: absolute;
+  top: 3px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24.9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact .text-wrapper-2 {
+  width: 65px;
+  left: 1022px;
+  position: absolute;
+  top: 3px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24.9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact .text-wrapper-3 {
+  width: 85px;
+  left: 1114px;
+  position: absolute;
+  top: 3px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24.9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact .text-wrapper-4 {
+  width: 62px;
+  left: 1227px;
+  position: absolute;
+  top: 3px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24.9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.con.contact .navbar .hamburger {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .con.contact .navbar .hamburger {
+    display: block;
+  }
+
+  .con.contact .navbar .nav-links {
+    display: none;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1024px) {
+  .con.contact .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .con.contact .navbar .logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .con.contact .navbar .text-wrapper {
+    font-size: 18px;
+  }
+
+  .con.contact .navbar .hamburger {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+
+  .con.contact .navbar .hamburger span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+  }
+
+  .con.contact .navbar .hamburger span:nth-child(1) {
+    transform: rotate(45deg);
+  }
+
+  .con.contact .navbar .hamburger span:nth-child(2) {
+    display: none;
+  }
+
+  .con.contact .navbar .hamburger span:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .con.contact .navbar {
+    display: none;
+  }
+
+  .con.contact .navbar.is-active {
+    display: flex;
+  }
+}
+
+.contact .hover-line {
+  position: absolute;
+  width: 103px;
+  height: 2px;
+  top: 45px;
+  left: 1107px;
+}
+
+.contact .div-2 {
+  position: relative;
+  width: 1284px;
+  height: 609px;
+}
+
+.contact .text-wrapper-5 {
+  position: absolute;
+  width: 660px;
+  top: -1px;
+  left: 0;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 45.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.contact .line {
+  top: 84px;
+  position: absolute;
+  width: 1284px;
+  height: 2px;
+  left: 0;
+}
+
+.contact .overlap-group {
+  position: absolute;
+  width: 530px;
+  height: 277px;
+  top: 194px;
+  left: 4px;
+}
+
+.contact .p {
+  position: absolute;
+  width: 530px;
+  top: 0;
+  left: 0;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 164px;
+  position: relative;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+.contact .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.contact .navbar {
+  position: relative;
+  width: 1440px;
+  height: 110px;
+  background-color: #f5f5f5;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .toggle-button {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links.active {
+    display: block;
+  }
+}
+@media (max-width: 1024px) {
+  .contact .navbar {
+    width: 100%; /* Make the navbar take up the full width */
+  }
+
+  .contact .navbar .text-wrapper,
+  .contact .navbar .text-wrapper-2,
+  .contact .navbar .text-wrapper-3,
+  .contact .navbar .text-wrapper-4 {
+    font-size: 20px; /* Make the text smaller */
+  }
+}
+.contact .div {
+  position: relative;
+  width: 1297px;
+  height: 47px;
+  top: 37px;
+  left: 49px;
+}
+
+.contact .logo {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 69px;
+  height: 37px;
+}
+
+.contact .text-wrapper {
+  width: 56px;
+  left: 939px;
+  position: absolute;
+  top: 3px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24.9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact .text-wrapper-2 {
+  width: 65px;
+  left: 1022px;
+  position: absolute;
+  top: 3px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24.9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact .text-wrapper-3 {
+  width: 85px;
+  left: 1114px;
+  position: absolute;
+  top: 3px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24.9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact .text-wrapper-4 {
+  width: 62px;
+  left: 1227px;
+  position: absolute;
+  top: 3px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24.9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact .hover-line {
+  position: absolute;
+  width: 103px;
+  height: 2px;
+  top: 45px;
+  left: 1107px;
+}
+
+.contact .div-2 {
+  position: relative;
+  width: 1284px;
+  height: 609px;
+}
+
+.contact .text-wrapper-5 {
+  position: absolute;
+  width: 660px;
+  top: -1px;
+  left: 0;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 45.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.contact .line {
+  top: 84px;
+  position: absolute;
+  width: 1284px;
+  height: 2px;
+  left: 0;
+}
+
+.contact .overlap-group {
+  position: absolute;
+  width: 530px;
+  height: 277px;
+  top: 194px;
+  left: 4px;
+}
+
+.contact .p {
+  position: absolute;
+  width: 530px;
+  top: 0;
+  left: 0;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.contact .if-contact-forms {
+  position: absolute;
+  width: 530px;
+  top: 139px;
+  left: 0;
+  font-family: "Neue Haas Grotesk Display Pro-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.contact .span {
+  font-family: "Neue Haas Grotesk Display Pro-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+}
+
+.contact .text-wrapper-6 {
+  text-decoration: underline;
+}
+
+.contact .contact-inputs {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: absolute;
+  top: 166px;
+  left: 660px;
+}
+
+.contact .div-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 11px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.contact .input {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.contact .div-4 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 37px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.contact .first-name {
+  width: 251px;
+  padding: 11px 13px;
+  position: relative;
+  border: 2px solid;
+  border-color: #4d4d4d;
+  background: none;
+  margin-top: -2px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #9f9f9f;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact .last-name {
+  width: 255px;
+  padding: 11px 13px;
+  position: relative;
+  border: 2px solid;
+  border-color: #4d4d4d;
+  background: none;
+  margin-top: -2px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #9f9f9f;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact .dropdown {
+  gap: 10px;
+  padding: 11px 13px;
+  border: 2px solid;
+  border-color: #4d4d4d;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.contact .text {
+  display: flex;
+  width: 225px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.contact .text-wrapper-8 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #9f9f9f;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact .vector {
+  position: relative;
+  width: 14px;
+  height: 8px;
+  margin-right: -1px;
+}
+
+.contact .email {
+  width: 256px;
+  padding: 11px 13px;
+  position: relative;
+  border: 2px solid;
+  border-color: #4d4d4d;
+  background: none;
+  margin-top: -2px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #9f9f9f;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact .div-wrapper {
+  display: flex;
+  width: 544px;
+  height: 140px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 11px 13px;
+  position: relative;
+  border: 2px solid;
+  border-color: #4d4d4d;
+}
+
+.contact .text-wrapper-9 {
+  position: relative;
+  width: fit-content;
+  margin-top: -2px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #9f9f9f;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact .send {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 30px;
+  position: relative;
+  flex: 0 0 auto;
+  border: 2px solid;
+  border-color: #4e4e4e;
+}
+
+.contact .text-wrapper-10 {
+  position: relative;
+  width: fit-content;
+  margin-top: -2px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact .testimonials {
+  position: relative;
+  width: 1284px;
+  height: 458px;
+}
+.testimonial-slider {
+  position: relative;
+  width: 823px;
+  height: 210px;
+  top: 248px;
+  left: 228px;
+}
+.swiper-slide {
+  position: relative;
+  width: 823px;
+  height: 210px;
+}
+.swiper-container-testimonials-2 {
+  position: relative;
+  width: 823px;
+  height: 210px;
+}
+.contact  .right-arrow-2,
+.contact  .left-arrow-2 {
+    position: absolute;
+    z-index: 1000;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.contact .right-arrow-2:hover,
+.contact .left-arrow-2:hover,
+.contact .right-arrow-2:focus,
+.contact .left-arrow-2:focus {
+    cursor: pointer;
+}
+
+.contact .title-of-section {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 27px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.contact .projects {
+  position: relative;
+  width: 586.49px;
+  margin-top: -1px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 45.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.contact .separator {
+  position: relative;
+  width: 1284px;
+  height: 2px;
+}
+
+.contact .right-arrow-2 {
+  position: absolute;
+  width: 59px;
+  height: 59px;
+  top: 259px;
+  left: 1128px;
+}
+
+.contact .overlap-group-2 {
+  position: relative;
+  height: 59px;
+  border-radius: 29.5px;
+}
+
+.contact .img {
+  position: absolute;
+  width: 8px;
+  height: 14px;
+  top: 22px;
+  left: 26px;
+}
+
+.contact .ellipse {
+  position: absolute;
+  width: 59px;
+  height: 59px;
+  top: 0;
+  left: 0;
+  border-radius: 29.5px;
+  border: 2px solid;
+  border-color: #0b0b0d;
+}
+
+.contact .left-arrow-2 {
+  position: absolute;
+  width: 59px;
+  height: 59px;
+  top: 259px;
+  left: 92px;
+  transform: rotate(-180deg);
+}
+
+.contact .vector-2 {
+  position: absolute;
+  width: 8px;
+  height: 14px;
+  top: 22px;
+  left: 26px;
+  transform: rotate(180deg);
+}
+
+.contact .testimonial {
+  position: absolute;
+  width: 823px;
+  height: 210px;
+  top: 248px;
+  left: 228px;
+}
+.testimonial-slider {
+  position: absolute;
+  width: 823px;
+  height: 210px;
+  top: 248px;
+  left: 228px;
+}
+.contact .overlap {
+  position: relative;
+  height: 210px;
+  top: -1px;
+}
+
+.contact .text-wrapper-11 {
+  position: absolute;
+  width: 823px;
+  top: 0;
+  left: 0;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30.1px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.contact .group {
+  position: absolute;
+  width: 204px;
+  height: 64px;
+  top: 106px;
+  left: 297px;
+}
+
+.contact .text-wrapper-12 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 45.1px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact .text-wrapper-13 {
+  position: absolute;
+  top: 35px;
+  left: 31px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact .text-wrapper-14 {
+  position: absolute;
+  top: 173px;
+  left: 328px;
+  font-family: "Neue Haas Grotesk Display Pro-56Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact .blog {
+  position: relative;
+  width: 1284px;
+  height: 342.42px;
+}
+
+.contact .line-2 {
+  top: -2px;
+  position: absolute;
+  width: 1284px;
+  height: 2px;
+  left: 0;
+}
+
+.contact .text-wrapper-15 {
+  position: absolute;
+  top: 64px;
+  left: 557px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact .separator-2 {
+  position: absolute;
+  width: 2px;
+  height: 185px;
+  top: 157px;
+  left: 462px;
+}
+
+.contact .separator-3 {
+  position: absolute;
+  width: 2px;
+  height: 185px;
+  top: 157px;
+  left: 842px;
+}
+
+.contact .blog-post {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+  position: absolute;
+  top: 170px;
+  left: 498px;
+}
+
+.contact .text-wrapper-16 {
+  position: relative;
+  width: 288px;
+  margin-top: -1px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.contact .bottom-autolayout {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.contact .text-wrapper-17 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 22.5px;
+  white-space: nowrap;
+}
+
+.contact .see-now-arrow {
+  display: flex;
+  width: 108px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.contact .text-wrapper-18 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.contact .group-2 {
+  position: relative;
+  width: 11.71px;
+  height: 11.71px;
+  margin-right: -1px;
+}
+
+.contact .blog-post-2 {
+  left: 897px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+  position: absolute;
+  top: 170px;
+}
+
+.contact .blog-post-3 {
+  left: 118px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+  position: absolute;
+  top: 170px;
+}
+
+.contact .footer-news {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-left: -8.57px;
+  margin-right: -8.57px;
+}
+
+.contact .separator-4 {
+  position: relative;
+  width: 1440px;
+  height: 15.56px;
+  margin-top: -1.41px;
+}
+
+.contact .newsletter {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.contact .text-wrapper-19 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 45px;
+  white-space: nowrap;
+}
+
+.contact .text-wrapper-20 {
+  position: relative;
+  width: 427px;
+  height: 46px;
+  font-family: "Neue Haas Grotesk Display Pro-45Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.contact .email-input {
+  position: relative;
+  width: 466px;
+  height: 45px;
+  margin-right: -2px;
+}
+
+.contact .overlap-group-3 {
+  position: absolute;
+  width: 380px;
+  height: 45px;
+  top: 0;
+  left: 0;
+  border: 2px solid;
+  border-color: #4d4d4d;
+}
+
+.contact .text-wrapper-21 {
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: #9f9f9f;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact .arrow-wrapper {
+  position: absolute;
+  width: 75px;
+  height: 45px;
+  top: 0;
+  left: 389px;
+  background-color: #4d4d4d;
+}
+
+.contact .arrow {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 15px;
+  left: 31px;
+}
+
+.contact .caption {
+  position: relative;
+  width: 364px;
+  height: 40px;
+  font-family: "Neue Haas Grotesk Display Pro-Light", Helvetica;
+  font-weight: 300;
+  color: var(--cool-gray500);
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 15px;
+}
+
+.contact .text-wrapper-22 {
+  line-height: 20px;
+}
+
+.contact .text-wrapper-23 {
+  line-height: 22.5px;
+}
+
+.contact .footer {
+  position: relative;
+  width: 1440px;
+  height: 123.4px;
+  background-color: transparent;
+}
+
+.contact .copyright {
+  position: absolute;
+  width: 310px;
+  top: 42px;
+  left: 159px;
+  font-family: "Neue Haas Grotesk Display Pro-45Light", Helvetica;
+  font-weight: 300;
+  color: var(--cool-gray500);
+  font-size: 14.4px;
+  letter-spacing: 0;
+  line-height: 21.6px;
+  white-space: nowrap;
+}
+
+.contact .logo-2 {
+  top: 39px;
+  left: 49px;
+  position: absolute;
+  width: 69px;
+  height: 37px;
+}
+
+.contact .social-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 21.6px;
+  position: absolute;
+  top: 43px;
+  left: 1260px;
+}
+
+.contact .nav-link {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.contact .fontawesome-github-wrapper {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.contact .fontawesome-github {
+  position: relative;
+  width: 21.6px;
+  height: 21.6px;
+}
+
+.contact .footer-line {
+  position: absolute;
+  width: 1440px;
+  height: 2px;
+  top: -2px;
+  left: 0;
+}

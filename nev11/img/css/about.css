@@ -1,0 +1,993 @@
+.projectPageCms .navbar .text-wrapper a,
+.projectPageCms .navbar .text-wrapper-2 a,
+.projectPageCms .navbar .text-wrapper-3 a,
+.projectPageCms .navbar .text-wrapper-4 a {
+  color: inherit; 
+  text-decoration: none; 
+}
+.text-wrapper:hover,
+.text-wrapper-2:hover,
+.text-wrapper-3:hover,
+.text-wrapper-4:hover
+{
+  transform: scale(1.3);
+  transition: transform 0.2s ease-in-out;
+}
+.about-me-page {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  align-items: center;
+  gap: 164px;
+  position: relative;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  }
+  
+  .about-me-page .frame {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .about-me-page .navbar {
+    position: relative;
+    width: 1440px;
+    height: 110px;
+    background-color: #f5f5f5;
+  }
+  
+  .about-me-page .div {
+    position: relative;
+    width: 1297px;
+    height: 37px;
+    top: 37px;
+    left: 49px;
+  }
+  
+  .about-me-page .logo {
+  top: 0;
+  left: 0;
+  position: relative;
+  width: 69px;
+  height: 37px;
+}
+
+  .about-me-page .text-wrapper {
+    width: 56px;
+    left: 939px;
+    position: absolute;
+    top: 3px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24.9px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .about-me-page .text-wrapper-2 {
+    width: 65px;
+    left: 1022px;
+    position: absolute;
+    top: 3px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24.9px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .about-me-page .text-wrapper-3 {
+    width: 85px;
+    left: 1114px;
+    position: absolute;
+    top: 3px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24.9px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .about-me-page .text-wrapper-4 {
+    width: 62px;
+    left: 1227px;
+    position: absolute;
+    top: 3px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24.9px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .about-me-page .about-me {
+    position: relative;
+    width: 1284px;
+    height: 684px;
+  }
+  .nav-links a {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .nav-links a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .nav-links a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .about-me-page .navbar .text-wrapper a {
+    color: inherit; 
+    text-decoration: none; 
+  }
+  .about-me-page .title-of-section {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 27px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .about-me-page .projects {
+    position: relative;
+    width: 586.49px;
+    margin-top: -1px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 45.1px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-me-page .separator {
+    position: relative;
+    width: 1284px;
+    height: 2px;
+  }
+  
+  .about-me-page .i-m-a-product {
+    position: absolute;
+    width: 535px;
+    top: 162px;
+    left: 4px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-me-page .rectangle {
+    position: absolute;
+    width: 606px;
+    height: 564px;
+    top: 120px;
+    left: 631px;
+  }
+  
+  .about-me-page .content-creation {
+    position: relative;
+    width: 1284px;
+    height: 1096.02px;
+  }
+  
+  .about-me-page .group {
+    position: absolute;
+    width: 516px;
+    height: 102px;
+    top: 165px;
+    left: 2px;
+  }
+  
+  .about-me-page .p {
+    position: absolute;
+    width: 514px;
+    top: 0;
+    left: 0;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-me-page .hevy-alphavive-knack {
+    position: absolute;
+    width: 412px;
+    top: 143px;
+    left: 622px;
+    font-family: "Neue Haas Grotesk Display Pro-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 75.8px;
+    letter-spacing: 0;
+    line-height: 105.8px;
+  }
+  
+  .about-me-page .span {
+    font-family: "Neue Haas Grotesk Display Pro-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 75.8px;
+    letter-spacing: 0;
+    line-height: 105.8px;
+  }
+  
+  .about-me-page .text-wrapper-5 {
+    text-decoration: underline;
+  }
+  
+  .about-me-page .contact {
+    position: relative;
+    width: 1284px;
+    height: 609px;
+  }
+  
+  .about-me-page .text-wrapper-6 {
+    position: absolute;
+    width: 660px;
+    top: -1px;
+    left: 0;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 45.1px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-me-page .line {
+    top: 84px;
+    position: absolute;
+    width: 1284px;
+    height: 2px;
+    left: 0;
+  }
+  
+  .about-me-page .overlap-group {
+    position: absolute;
+    width: 530px;
+    height: 277px;
+    top: 194px;
+    left: 4px;
+  }
+  
+  .about-me-page .text-wrapper-7 {
+    position: absolute;
+    width: 530px;
+    top: 0;
+    left: 0;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-me-page .if-contact-forms {
+    position: absolute;
+    width: 530px;
+    top: 139px;
+    left: 0;
+    font-family: "Neue Haas Grotesk Display Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-me-page .text-wrapper-8 {
+    font-family: "Neue Haas Grotesk Display Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+  }
+  
+  .about-me-page .contact-inputs {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: absolute;
+    top: 166px;
+    left: 660px;
+  }
+  
+  .about-me-page .div-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .about-me-page .input {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  
+  .about-me-page .div-3 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 37px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .about-me-page .first-name {
+    width: 251px;
+    padding: 11px 13px;
+    position: relative;
+    border: 2px solid;
+    border-color: #4d4d4d;
+    background: none;
+    margin-top: -2px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #9f9f9f;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .about-me-page .last-name {
+    width: 255px;
+    padding: 11px 13px;
+    position: relative;
+    border: 2px solid;
+    border-color: #4d4d4d;
+    background: none;
+    margin-top: -2px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #9f9f9f;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .about-me-page .text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .about-me-page .dropdown {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 11px 13px;
+    position: relative;
+    flex: 0 0 auto;
+    border: 2px solid;
+    border-color: #4d4d4d;
+  }
+  
+  .about-me-page .text {
+    display: flex;
+    width: 225px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .about-me-page .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #9f9f9f;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .about-me-page .vector {
+    position: relative;
+    width: 14px;
+    height: 8px;
+    margin-right: -1px;
+  }
+  
+  .about-me-page .email {
+    width: 256px;
+    padding: 11px 13px;
+    position: relative;
+    border: 2px solid;
+    border-color: #4d4d4d;
+    background: none;
+    margin-top: -2px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #9f9f9f;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .about-me-page .div-wrapper {
+    display: flex;
+    width: 544px;
+    height: 140px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 11px 13px;
+    position: relative;
+    border: 2px solid;
+    border-color: #4d4d4d;
+  }
+  
+  .about-me-page .text-wrapper-11 {
+    position: relative;
+    width: fit-content;
+    margin-top: -2px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #9f9f9f;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .about-me-page .send {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 30px;
+    position: relative;
+    flex: 0 0 auto;
+    border: 2px solid;
+    border-color: #4e4e4e;
+  }
+  
+  .about-me-page .text-wrapper-12 {
+    position: relative;
+    width: fit-content;
+    margin-top: -2px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  .about-me-page .testimonials {
+    position: relative;
+    width: 1284px;
+    height: 458px;
+}
+
+.about-me-page .right-arrow,
+.about-me-page .left-arrow {
+    position: absolute;
+    z-index: 1000;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.about-me-page .right-arrow:hover,
+.about-me-page .left-arrow:hover,
+.about-me-page .right-arrow:focus,
+.about-me-page .left-arrow:focus {
+    cursor: pointer;
+}
+
+.swiper-container-testimonials {
+    position: relative;
+    width: 1284px;
+    height: 458px;
+}
+
+.about-me-page .right-arrow {
+    width: 59px;
+    height: 59px;
+    top: 259px;
+    left: 1128px;
+}
+
+.about-me-page .overlap-group-2 {
+    position: relative;
+    height: 59px;
+    border-radius: 29.5px;
+}
+
+.about-me-page .img {
+    position: absolute;
+    width: 8px;
+    height: 14px;
+    top: 22px;
+    left: 26px;
+}
+
+.about-me-page .ellipse {
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    top: 0;
+    left: 0;
+    border-radius: 29.5px;
+    border: 2px solid #0b0b0d;
+}
+
+.about-me-page .left-arrow {
+    width: 59px;
+    height: 59px;
+    top: 259px;
+    left: 92px;
+    transform: rotate(-180deg);
+}
+
+.about-me-page .vector-2 {
+    transform: rotate(180deg);
+    position: absolute;
+    width: 8px;
+    height: 14px;
+    top: 22px;
+    left: 26px;
+}
+
+.about-me-page .testimonial {
+    position: absolute;
+    width: 823px;
+    height: 210px;
+    top: 248px;
+    left: 228px;
+}
+
+.about-me-page .overlap {
+    position: relative;
+    height: 210px;
+    top: -1px;
+}
+
+.about-me-page .text-wrapper-13 {
+    position: absolute;
+    width: 823px;
+    top: 0;
+    left: 0;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30.1px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.about-me-page .group-2 {
+    position: absolute;
+    width: 204px;
+    height: 64px;
+    top: 106px;
+    left: 297px;
+}
+
+.about-me-page .text-wrapper-14 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 45.1px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.about-me-page .text-wrapper-15 {
+    position: absolute;
+    top: 35px;
+    left: 31px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.about-me-page .text-wrapper-16 {
+    position: absolute;
+    top: 173px;
+    left: 328px;
+    font-family: "Neue Haas Grotesk Display Pro-56Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+  
+  .about-me-page .blog {
+    position: relative;
+    width: 1284px;
+    height: 342.42px;
+  }
+  
+  .about-me-page .line-2 {
+    top: -2px;
+    position: absolute;
+    width: 1284px;
+    height: 2px;
+    left: 0;
+  }
+  
+  .about-me-page .text-wrapper-17 {
+    position: absolute;
+    top: 64px;
+    left: 557px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .about-me-page .separator-2 {
+    position: absolute;
+    width: 2px;
+    height: 185px;
+    top: 157px;
+    left: 462px;
+  }
+  
+  .about-me-page .separator-3 {
+    position: absolute;
+    width: 2px;
+    height: 185px;
+    top: 157px;
+    left: 842px;
+  }
+  
+  .about-me-page .blog-post {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+    position: absolute;
+    top: 170px;
+    left: 498px;
+  }
+  
+  .about-me-page .text-wrapper-18 {
+    position: relative;
+    width: 288px;
+    margin-top: -1px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .about-me-page .bottom-autolayout {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .about-me-page .text-wrapper-19 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 22.5px;
+    white-space: nowrap;
+  }
+  
+  .about-me-page .see-now-arrow {
+    display: flex;
+    width: 108px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .about-me-page .text-wrapper-20 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+  
+  .about-me-page .group-3 {
+    position: relative;
+    width: 11.71px;
+    height: 11.71px;
+    margin-right: -1px;
+  }
+  
+  .about-me-page .blog-post-2 {
+    left: 897px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+    position: absolute;
+    top: 170px;
+  }
+  
+  .about-me-page .blog-post-3 {
+    left: 118px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+    position: absolute;
+    top: 170px;
+  }
+  
+  .about-me-page .footer-news {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: -8.57px;
+    margin-right: -8.57px;
+  }
+  
+  .about-me-page .separator-4 {
+    position: relative;
+    width: 1440px;
+    height: 15.56px;
+    margin-top: -1.41px;
+  }
+  
+  .about-me-page .newsletter {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .about-me-page .text-wrapper-21 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .about-me-page .text-wrapper-22 {
+    position: relative;
+    width: 427px;
+    height: 46px;
+    font-family: "Neue Haas Grotesk Display Pro-45Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .about-me-page .email-input {
+    position: relative;
+    width: 466px;
+    height: 45px;
+    margin-right: -2px;
+  }
+  
+  .about-me-page .overlap-2 {
+    position: absolute;
+    width: 380px;
+    height: 45px;
+    top: 0;
+    left: 0;
+    border: 2px solid;
+    border-color: #4d4d4d;
+  }
+  
+  .about-me-page .text-wrapper-23 {
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    font-family: "Neue Haas Grotesk Display Pro-55Roman", Helvetica;
+    font-weight: 400;
+    color: #9f9f9f;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .about-me-page .arrow-wrapper {
+    position: absolute;
+    width: 75px;
+    height: 45px;
+    top: 0;
+    left: 389px;
+    background-color: #4d4d4d;
+  }
+  
+  .about-me-page .arrow {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 15px;
+    left: 31px;
+  }
+  
+  .about-me-page .caption {
+    position: relative;
+    width: 364px;
+    height: 40px;
+    font-family: "Neue Haas Grotesk Display Pro-Light", Helvetica;
+    font-weight: 300;
+    color: var(--cool-gray500);
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 15px;
+  }
+  
+  .about-me-page .text-wrapper-24 {
+    line-height: 20px;
+  }
+  
+  .about-me-page .text-wrapper-25 {
+    line-height: 22.5px;
+  }
+  
+  
+  .about-me-page .footer {
+    position: relative;
+    width: 1440px;
+    height: 123.4px;
+    background-color: transparent;
+  }
+  
+  .about-me-page .copyright {
+    position: absolute;
+    width: 310px;
+    top: 42px;
+    left: 159px;
+    font-family: "Neue Haas Grotesk Display Pro-45Light", Helvetica;
+    font-weight: 300;
+    color: var(--cool-gray500);
+    font-size: 14.4px;
+    letter-spacing: 0;
+    line-height: 21.6px;
+    white-space: nowrap;
+  }
+  
+  .about-me-page .logo-2 {
+    position: absolute;
+    width: 69px;
+    height: 37px;
+    top: 39px;
+    left: 49px;
+  }
+  
+  .about-me-page .social-links {
+    display: inline-flex;
+    align-items: center;
+    gap: 21.6px;
+    position: absolute;
+    top: 43px;
+    left: 1260px;
+  }
+  
+  .about-me-page .nav-link {
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .about-me-page .fontawesome-github-wrapper {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .about-me-page .fontawesome-github {
+    position: relative;
+    width: 21.6px;
+    height: 21.6px;
+  }
+  
+  .about-me-page .footer-line {
+    position: absolute;
+    width: 1440px;
+    height: 2px;
+    top: -2px;
+    left: 0;
+  }
+  
